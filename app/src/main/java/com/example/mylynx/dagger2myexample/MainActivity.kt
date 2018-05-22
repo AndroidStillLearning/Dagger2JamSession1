@@ -7,8 +7,6 @@ import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
 
-    @Inject
-    lateinit var material: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
